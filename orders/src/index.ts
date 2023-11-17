@@ -42,12 +42,12 @@ const start = async () => {
 
     await mongoose.connect(process.env.MONGO_URL);
 
-    console.log("Connected to MongoDb");
+    console.log("Connected!!!");
   } catch (error) {
     console.error(error);
   }
   app.listen(3000, () => {
-    console.log("Listening on 3000");
+    console.log("Listening on 3000!!!!");
   });
 };
 
